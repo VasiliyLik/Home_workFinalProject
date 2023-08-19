@@ -1,0 +1,50 @@
+[
+  {
+    "age": 19,
+    "faculty": "ECONOMICS",
+    "freePaidEducation": false,
+    "averageScore": 8.9,
+    "firstName": "Nick",
+    "surName": "Busch"
+  },
+  {
+    "age": 21,
+    "faculty": "ECONOMICS",
+    "freePaidEducation": true,
+    "averageScore": 7.6,
+    "firstName": "Ban",
+    "surName": "Johns"
+  },
+  {
+    "age": 26,
+    "faculty": "LAW",
+    "freePaidEducation": true,
+    "averageScore": 9.4,
+    "firstName": "Chuck",
+    "surName": "Lee"
+  },
+  {
+    "age": 20,
+    "faculty": "HISTORY",
+    "freePaidEducation": false,
+    "averageScore": 7.1,
+    "firstName": "Roy",
+    "surName": "Stick"
+  },
+  {
+    "age": 31,
+    "faculty": "HISTORY",
+    "freePaidEducation": true,
+    "averageScore": 9.3,
+    "firstName": "Vaso",
+    "surName": "Vlasov"
+  },
+  {
+    "age": 23,
+    "faculty": "LAW",
+    "freePaidEducation": false,
+    "averageScore": 7.4,
+    "firstName": "Sam",
+    "surName": "Wolf"
+  }
+]
