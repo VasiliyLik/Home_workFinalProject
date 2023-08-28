@@ -1,18 +1,18 @@
 package model;
 
 import enums.Faculties;
-import interfacesAndAnnotations.MyAnnotationForGenerate;
+import interfacesAndAnnotations.Generate;
 
 import java.util.Objects;
 
 public class Student extends Person implements Comparable<Student> {
-    @MyAnnotationForGenerate
+    @Generate
     private int age;
-    @MyAnnotationForGenerate
+    @Generate
     private Faculties faculty;
-    @MyAnnotationForGenerate
+    @Generate
     private boolean freePaidEducation;
-    @MyAnnotationForGenerate
+    @Generate
     private double averageScore;
 
     public Student(String firstName, String surName, int age, Faculties faculty, boolean freePaidEducation, double averageScore) {

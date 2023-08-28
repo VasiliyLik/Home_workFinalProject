@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2148d3-b37f-4d67-a26a-b741cb5a278b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9d2148d3-b37f-4d67-a26a-b741cb5a278b" name="Changes" comment="мое итоговое домашнее задание">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/files/studentsJsonFile2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfacesAndAnnotations/DisplayFaculties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfacesAndAnnotations/DisplayFaculties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfacesAndAnnotations/MyAnnotationForGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfacesAndAnnotations/Generate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/CreateStudentUsingReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/CreateStudentUsingReflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/FacultyBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/FacultyBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/ReadFilesThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/StudentBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/StudentBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logic/FacultyBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logic/FacultyBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentsJsonFile.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +31,17 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -54,8 +66,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "last_opened_file_path": "D:/programmes/java/new_projects/MyHomeWork13RegEx",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "last_opened_file_path": "D:/programmes/java/projects/MyFinalProject",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,9 +86,9 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start">
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Start" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MyFinalProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FacultyBaseTest.displayFacultiesRating" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FacultyBaseTest.displayAverageScoreForPaidEducation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyFinalProject" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +119,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="logic" />
       <option name="MAIN_CLASS_NAME" value="logic.FacultyBaseTest" />
-      <option name="METHOD_NAME" value="displayFacultiesRating" />
+      <option name="METHOD_NAME" value="displayAverageScoreForPaidEducation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Start" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FacultyBaseTest.displayPercentagePaidEducation1" />
+        <item itemvalue="JUnit.FacultyBaseTest.displayAverageScoreForPaidEducation" />
         <item itemvalue="JUnit.SearchStudentsTest" />
         <item itemvalue="JUnit.FacultyBaseTest" />
-        <item itemvalue="JUnit.FacultyBaseTest.displayPercentagePaidEducation1" />
-        <item itemvalue="JUnit.FacultyBaseTest.displayFacultiesRating" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +175,14 @@
       <option name="presentableId" value="Default" />
       <updated>1690903132178</updated>
     </task>
+    <task id="LOCAL-00001" summary="мое итоговое домашнее задание">
+      <created>1692451166347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692451166347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,5 +195,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="мое итоговое домашнее задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="мое итоговое домашнее задание" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

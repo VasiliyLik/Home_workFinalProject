@@ -2,15 +2,13 @@ package logic;
 
 import enums.Faculties;
 import model.Student;
-import org.apache.commons.math3.util.Precision;
+import org.apache.commons.math3.util.Pair;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.NavigableMap;
-import java.util.TreeMap;
+import java.util.*;
+
 import static logic.StudentBase.studentList;
 
 public class FacultyBaseTest {
@@ -37,22 +35,20 @@ public class FacultyBaseTest {
     @Test
     public void displayFacultiesRating() {
         double sumL = 16.8, sumE = 16.5, sumH = 16.4;
-        NavigableMap<Double, Faculties> expected = facultyBase.displayFacultiesRating();
+        Map<Double, Faculties> expected = facultyBase.displayFacultiesRating();
         TreeMap<Double, Faculties> actual = new TreeMap<>();
         actual.put(sumL, Faculties.LAW);
         actual.put(sumE, Faculties.ECONOMICS);
         actual.put(sumH, Faculties.HISTORY);
 
-        Assert.assertArrayEquals(new NavigableMap[]{expected}, new TreeMap[]{actual});
+        Assert.assertArrayEquals(new Map[]{expected}, new TreeMap[]{actual});
     }
 
     @Test
     public void displayPercentagePaidEducation1() {
         double freePaidPercentage = 33.33, paidPercentage = 66.67;
-        List<Double> expected = facultyBase.displayPercentagePaidEducation();
-        List<Double> actual = new ArrayList<>();
-        actual.add(Precision.round(freePaidPercentage, 2));
-        actual.add(Precision.round(paidPercentage, 2));
+        Pair<Double, Double> expected = facultyBase.displayPercentagePaidEducation();
+        Pair<Double, Double> actual = new Pair<>(freePaidPercentage, paidPercentage);
         Assert.assertEquals(expected, actual);
     }
 
@@ -60,10 +56,8 @@ public class FacultyBaseTest {
     public void displayAverageScoreForPaidEducation() {
         double result = 9.4;
         double result2 = 7.4;
-        List<Double> expected = facultyBase.displayAverageScoreForPaidEducation(Faculties.LAW);
-        List<Double> actual = new ArrayList<>();
-        actual.add(Precision.round(result, 2));
-        actual.add(Precision.round(result2, 2));
+        Pair<Double, Double> expected = facultyBase.displayAverageScoreForPaidEducation(Faculties.LAW);
+        Pair<Double, Double> actual = new Pair<>(result, result2);
         Assert.assertEquals(expected, actual);
     }
 }

@@ -1,7 +1,7 @@
 package logic;
 
 import enums.Faculties;
-import interfacesAndAnnotations.MyAnnotationForGenerate;
+import interfacesAndAnnotations.Generate;
 import model.Student;
 import org.apache.commons.lang3.ArrayUtils;
 
@@ -17,7 +17,7 @@ public class CreateStudentUsingReflection {
         final Class<?> superclass = clazz.getSuperclass();
         final Field[] fields = getAllFields(object);
         for (Field field : fields) {
-            Annotation annotation = field.getDeclaredAnnotation(MyAnnotationForGenerate.class);
+            Annotation annotation = field.getDeclaredAnnotation(Generate.class);
             if (annotation == null) {
                 continue;
             }
@@ -52,7 +52,7 @@ public class CreateStudentUsingReflection {
             }
         }
         StudentBase.studentList.add((Student) object);
-        System.out.println(StudentBase.studentList);
+        StudentBase.studentList.forEach(System.out::println);
     }
 
     //метод, формирующий массив полей класса-родителя и наследника

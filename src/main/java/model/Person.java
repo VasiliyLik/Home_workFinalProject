@@ -1,11 +1,11 @@
 package model;
 
-import interfacesAndAnnotations.MyAnnotationForGenerate;
+import interfacesAndAnnotations.Generate;
 
 public class Person {
-    @MyAnnotationForGenerate
+    @Generate
     private String firstName;
-    @MyAnnotationForGenerate
+    @Generate
     private String surName;
 
     Person(String firstName, String surName) {

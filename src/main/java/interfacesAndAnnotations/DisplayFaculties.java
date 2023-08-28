@@ -1,16 +1,16 @@
 package interfacesAndAnnotations;
 
 import enums.Faculties;
+import org.apache.commons.math3.util.Pair;
 
-import java.util.List;
-import java.util.NavigableMap;
+import java.util.Map;
 
 public interface DisplayFaculties {
 
-    NavigableMap<Double, Faculties> displayFacultiesRating();
+    Map<Double, Faculties> displayFacultiesRating();
 
-    List<Double> displayPercentagePaidEducation();
+    Pair<Double, Double> displayPercentagePaidEducation();
 
-    List<Double> displayAverageScoreForPaidEducation(Faculties faculties);
+    Pair<Double, Double> displayAverageScoreForPaidEducation(Faculties faculties);
 
 }
